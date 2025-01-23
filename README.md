@@ -33,22 +33,21 @@ git clone https://github.com/Erickoxs/Proyecto-practicas.git
   3. Iniciar el servidor:
   
     npm start
+    
+### 3. Configurar el Frontend
 
-
-3. Configurar el Frontend
-
-  1. Salir de la carpeta backend:
+   1. Salir de la carpeta backend:
 
     cd ..
 
-  2. Navegar a la carpeta frontend:
+   2. Navegar a la carpeta frontend:
 
     cd frontend
 
-  3. Instalar las dependencias:
+   3. Instalar las dependencias:
 
     npm install
 
-  4. Iniciar la aplicación del frontend:
+   4. Iniciar la aplicación del frontend:
 
-    npm start
+     npm start
