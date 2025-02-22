@@ -14,7 +14,7 @@ const app = (0, express_1.default)();
 app.use(express_1.default.json());
 // Configuración personalizada de CORS
 const corsOptions = {
-    origin: 'http://localhost:3000', // Asegúrate de que tu frontend esté corriendo en este puerto
+    origin: process.env.FRONTEND_URL, // Asegúrate de que tu frontend esté corriendo en este puerto
     methods: 'GET,POST,PUT,DELETE', // Métodos permitidos
     allowedHeaders: 'Content-Type,Authorization', // Headers permitidos
 };
