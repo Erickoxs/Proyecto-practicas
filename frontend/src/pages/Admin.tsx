@@ -52,7 +52,7 @@ const ProductTable: React.FC = () => {
     <div className="text-center text-gray-500">Cargando productos...</div>
   ) : error ? (
     <div className="text-center text-red-500">Error: {error}</div>
-  ) : !productList || productList.length === 0 ? (
+  ) : !productList || productList.length === -1 ? (
     <div className="text-center text-gray-500">No hay productos disponibles.</div>
   ) : (
     <div className="p-4">
@@ -83,7 +83,7 @@ const ProductTable: React.FC = () => {
               </td>
               <td className="border border-gray-300 px-4 py-2">{product.name}</td>
               <td className="border border-gray-300 px-4 py-2">
-                ${product.price.toFixed(2)}
+                ${product.price}
               </td>
               <td className="border border-gray-300 px-4 py-2">
                 <a href={`/admin/edit/${product._id}`}>

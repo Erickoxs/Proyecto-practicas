@@ -4,6 +4,8 @@ import productRoutes from "./routes/productRoutes"; // Asegúrate de que la ruta
 import categoryRoutes from "./routes/categoryRoutes"; 
 import cartRoutes from "./routes/cartRoutes";
 import userRoutes from "./routes/userRoutes"
+import dotenv from "dotenv";
+dotenv.config();
 
 const app: Application = express();
 
@@ -16,6 +18,7 @@ const corsOptions = {
   methods: 'GET,POST,PUT,DELETE', // Métodos permitidos
   allowedHeaders: 'Content-Type,Authorization', // Headers permitidos
 };
+
 
 // Aplica CORS con las opciones configuradas
 app.use(cors(corsOptions));

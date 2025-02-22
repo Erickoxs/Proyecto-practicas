@@ -9,6 +9,8 @@ const productRoutes_1 = __importDefault(require("./routes/productRoutes")); // A
 const categoryRoutes_1 = __importDefault(require("./routes/categoryRoutes"));
 const cartRoutes_1 = __importDefault(require("./routes/cartRoutes"));
 const userRoutes_1 = __importDefault(require("./routes/userRoutes"));
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
 const app = (0, express_1.default)();
 // Middleware para procesar los cuerpos de solicitudes en JSON
 app.use(express_1.default.json());
