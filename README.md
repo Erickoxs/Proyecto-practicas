@@ -18,7 +18,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 Clona el repositorio desde GitHub a tu máquina local usando este comando:
 
 ```bash
-git clone https://github.com/Erickoxs/Proyecto-practicas.git
+git clone https://github.com/Erickoxs/Proyecto-practicas.git 
+
 2. Configurar el Backend
 
   1. Navegar a la carpeta backend:

@@ -13,6 +13,7 @@ import PaymentPage from './pages/cartCheckour';
 import ProductTable from './pages/Admin';
 import CreateProduct from './pages/NewProduct';
 import EditProduct from './pages/EditProduct';
+import RegisterForm from './pages/Register';
 
 const App: React.FC = () => {
   return (
@@ -32,6 +33,7 @@ const App: React.FC = () => {
               <Route path= "/admin" element={<ProductTable/>} />
               <Route path= "/admin/create" element={<CreateProduct/>} />
               <Route path= "/admin/edit/:id" element={<EditProduct/>} />
+              <Route path= "/register" element={<RegisterForm/>} />
             </Routes>
           </div>
         </CartProvider>

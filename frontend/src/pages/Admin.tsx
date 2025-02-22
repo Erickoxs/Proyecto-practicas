@@ -56,10 +56,11 @@ const ProductTable: React.FC = () => {
     <div className="text-center text-gray-500">No hay productos disponibles.</div>
   ) : (
     <div className="p-4">
+      <a href="admin/create" >
       <button className="flex items-center">
         Crear Producto
         <img src="/img/agregar.png" className="w-6 h-6 ml-2" alt="Agregar producto" />
-      </button>
+      </button></a>
       <h1 className="text-2xl font-bold mb-4">Lista de Productos</h1>
       <table className="w-full border-collapse border border-gray-300">
         <thead>
