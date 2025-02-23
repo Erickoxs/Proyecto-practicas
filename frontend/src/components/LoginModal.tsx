@@ -27,7 +27,7 @@ const LoginModal: React.FC<LoginModalProps> = ({ onClose, onLogin }) => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      const response = await api.post("api/users/login", formData);
+      const response = await api.post("/api/users/login", formData);
       console.log("Inicio de sesión exitoso:", response.data);
 
       // Extraer token y nombre del usuario

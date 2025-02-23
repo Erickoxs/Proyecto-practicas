@@ -11,9 +11,9 @@ const Carousel: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
   const items: CarouselItem[] = [
-    { id: 1, src: "/img/America.webp", alt: "Slide 1", href: "/categories/67619ab759c3dfbf0e424371" },
-    { id: 2, src: "/img/Nacional.jpg", alt: "Slide 2", href: "/categories/6766d51f9970d71d299c477c" },
-    { id: 3, src: "/img/Millonarios.png", alt: "Slide 3", href: "/categories/6766d53c9970d71d299c477f" },
+    { id: 1, src: "/img/America.webp", alt: "Slide 1", href: "/categories/67ba4bb165b937a27bbd2280" },
+    { id: 2, src: "/img/Nacional.jpg", alt: "Slide 2", href: "/categories/67ba4bc365b937a27bbd2283" },
+    { id: 3, src: "/img/Millonarios.png", alt: "Slide 3", href: "/categories/67ba4bcc65b937a27bbd2286" },
     { id: 4, src: "/img/balones.jpg", alt: "Slide 4" },
     { id: 5, src: "/img/guayos.jpg", alt: "Slide 5" },
   ];
